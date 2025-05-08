@@ -1,36 +1,69 @@
 <p align="center">
-<img src="https://online-project-images.s3.us-east-2.amazonaws.com/jobspot/JobSpot.svg"  height="55%" width="55%" alt="JobSpot Logo"/>
+  <img src="https://online-project-images.s3.us-east-2.amazonaws.com/jobspot/JobSpot.svg" height="55%" width="55%" alt="JobSpot Logo"/>
 </p>
 
 <div align="center" id="toc">
-<ul style="list-style: none">
-<summary>
- <h1>JopSpot</h1>
-</summary>
-</ul>
+  <ul style="list-style: none">
+	<summary>
+  	<h1>💼 JobSpot 💼</h1>
+	</summary>
+  </ul>
 </div>
 
-<br>
+<div align="center">
 
-This job matching platform, built with React and Next.js using VITE, integrates Clerk for authentication, React Query for efficient data fetching, and features Shadcn-ui for clean UI, Supabase for backend services, Render for deployment, plus pagination and toast notifications for an enhanced, user-friendly experience.
+[![Version](https://img.shields.io/badge/version-3.0.0-chocolate.svg)](https://github.com/Isaiahpeoples/JobSpot)
+[![Built With](https://img.shields.io/badge/Built_with-Next.js_&_Vite-chocolate)](https://nextjs.org/)
+[![UI](https://img.shields.io/badge/UI-Shadcn--ui-chocolate)](https://ui.shadcn.com/)
+[![Auth](https://img.shields.io/badge/Auth-Clerk-chocolate)](https://clerk.dev/)
+[![Data](https://img.shields.io/badge/Data-React_Query-chocolate)](https://tanstack.com/query)
+[![Backend](https://img.shields.io/badge/Backend-Supabase-chocolate)](https://supabase.com/)
 
-## 🚀 Technologies Used 🚀
+[![Hosting](https://img.shields.io/badge/Deployed_on-Render-brightgreen)](https://render.com/)
+[![Live](https://img.shields.io/badge/Live-Demo-brightgreen)](https://job-spot-gamma.vercel.app/)
 
-- **React**: Builds interactive, component-based user interfaces.
-- **Next.js**: Framework for server-side rendered React applications.
-- **VITE**: Fast, modern development and build tool.
-- **React Query**: Fetches, caches, and updates remote data.
-- **Clerk**: User authentication and authorization.
-- **Shadcn-ui**: Prebuilt, customizable UI components for React.
-- **Supabase**: Backend-as-a-service for database and authentication.
-- **Render**: Hosts and deploys web applications easily.
+</div>
+<br/>
 
-## 📑 Key Features 📑
+## 🔍 Project Overview
 
-- **Pagination**: Navigate job listings across multiple pages.
-- **Toast Notifications**: Display real-time feedback to users.
-- **Stat Cards**: Summarize key job or user data visually.
-- **Authentication**: Secure login and account management via Clerk.
+**JobSpot** is a sleek, responsive job matching platform that connects users with opportunities in real-time. Built with **React**, **Next.js**, and **VITE**, and backed by **Supabase** and **Clerk**, it supports secure authentication, smooth navigation, clean UI with **Shadcn-ui**, and optimized data handling via **React Query**.
+
+From dynamic pagination to real-time toast notifications, JobSpot is designed for both performance and user experience.
+
+<br/>
+
+## 🚀 Technologies Used
+
+| Technology     	| Description                                                          	|
+|--------------------|--------------------------------------------------------------------------|
+| **React**      	| ⚛️ Builds dynamic, component-based UIs.                             	|
+| **Next.js**    	| 🚀 React framework for SSR and routing.                              	|
+| **VITE**       	| ⚡ High-speed build tool for frontend apps.                          	|
+| **Clerk**      	| 🔐 Auth provider for secure login & user management.                 	|
+| **React Query**	| 🔄 Handles fetching and caching of async data.                       	|
+| **Shadcn-ui**  	| 🧩 Prebuilt, accessible UI components styled with Tailwind.          	|
+| **Supabase**   	| 🛠️ Backend-as-a-service for DB and auth APIs.                       	|
+| **Render**     	| ☁️ Simple deployment for full-stack apps.                           	|
+
+<br/>
+
+## 📸 Project Screenshot
+
+![JobSpot Website Preview](https://online-project-images.s3.us-east-2.amazonaws.com/jobspot/JobSpot-1.png)
+
+*A clean and functional job browsing interface with stat cards and filtering.*
+
+<br/>
+
+## 📑 Key Features
+
+- 📄 **Pagination** — Browse job listings across multiple pages.  
+- 🔔 **Toast Notifications** — Real-time feedback and alerts.  
+- 📊 **Stat Cards** — Visual job or user data summaries.  
+- 🔐 **Clerk Authentication** — Secure user login and management.  
+
+<br/>
 
 ## 🔧 Installation & Setup 🔧
 
@@ -83,17 +116,29 @@ CLERK_SECRET_KEY=
 npm run dev
 ```
 
+<br/>
+
 ## 📂 Project Structure 📂
 
-- **/app: Main application directory with API routes and pages**
+- **/app: Application logic, pages, and route handlers**
 
-- **/components: UI components and forms**
+- **/components: UI components and layout modules**
 
 - **/utils: Utility functions for formatting, database, and API helpers**
 
-- **/prisma: Prisma schema and migrations**
+- **/prisma: Prisma schemas and DB migrations**
 
 - **/assets: Static assets and images**
 
+<br/>
+
+## 🌐 Live Demo
+
+Check out the live version:  
+👉 [JobSpot Live Demo](https://job-spot-gamma.vercel.app/)
+
+<br/>
+
 ### ⭐️ Support ⭐️
-If you found this project helpful or interesting, please give it a ⭐️! Your support helps to grow the project and boosts visibility. Thank you!
+If you found this project useful or inspiring, please consider giving it a ⭐️ Star!
+Your encouragement helps others discover the work and motivates future enhancements. **Thanks for checking out JobSpot!** 👔
